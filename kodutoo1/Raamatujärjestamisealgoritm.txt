@@ -1,0 +1,4 @@
+Kui on antud raamatu riiuli pikkus ja saab vaadeldes kindlaks määrata, kas on õigesti sorteeritud saab seda teha järgnevaklt:
+Oletame, et raamatud on listis. Sorteerimise algoritm töötab nii, et võtab kaks esimest elementi ja võrdleb omavahel. Kui esimesest
+järgnev on väiksem siis vahetatakse kohad ära, kui aga suurem, siis ei juhtu midagi. Ja nii käib see algoritm edasi kuni listi lõppu.
+Kui see lõppu jõuab, siis hakkab otsast peale. Algorim käib nii kaua kuniks kõik listi elemendid on järjestatud väiksemast suuremani või vastupidi. 
