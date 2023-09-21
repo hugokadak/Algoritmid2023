@@ -21,7 +21,7 @@ while lifolist != None:
         if info2 == "ei":
             print("Head päeva jätku!")
 
-# ajaline keerukus on O(1), sest kiirus ei sõltu sisendi suurusest.
+# ajaline keerukus on O(1), sest kiirus ei sõltu sisendi suurusest
             
 
 
