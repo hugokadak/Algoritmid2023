@@ -1,0 +1,16 @@
+ülesanne 4
+
+a) Millistel eelmainitud sortimisalgoritmidel on halvimal juhul ajakompleksus
+O(n^2)?
+
+bubble sort, selction sort ja insertion sort
+
+
+
+b) Milline sortimisalgoritm oleks kõige sobivam sortimaks loendit täisarvudega, mis
+jäävad vahemikku 1 kuni 100 ja miks?
+
+
+bubble sort, sest see sorteerimis algorütm iga läbi käiguga paneb kõige väikseima ette ja suurima lõppu. 
+bubble sort ei pea viimase elemendiga rohkem midagi tegema peale igat läbi käiku, mis teeb selle 1-st 100-ni 
+jäävaid numbreid parimaks sortimis algorütmiks
