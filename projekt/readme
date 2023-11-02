@@ -1,10 +1,43 @@
 projekt 1
 
-02.11.2023
-progees
-gb
-gfhfgpöhkdfpgdfkphkrtphkrfpkdfpbkpxvkmsdpbpühjmqetõoümnadfbnköaqah
+ÜLESANNE
+Lühima Tee Otsija:
+● Eesmärk: Loo tööriist, mis kasutab Dijkstra algoritmi, et määrata võrgus lühim tee
+erinevatel eesmärkidel, nagu marsruutimine või reisi planeerimine.
+● Algoritmi Rakendamine: Rakenda Dijkstra algoritmi, et leida võrgus sõlmede vahel
+lühim tee, arvestades tegureid nagu kaugus, aeg või kulud.
+● Rakenduse Kohandamine: Arenda liideseid või mooduleid tööriista kohandamiseks
+erinevateks rakendusteks, nagu teedevõrgud, telekommunikatsioon või logistiline
+marsruutimine.
+● Jõudluse Optimeerimine: Optimeeri algoritmi jõudlust ja tööriista kasutajasõbralikkust,
+tagades, et see suudab tõhusalt hakkama saada reaalmaailma stsenaariumidega.
 
+
+02.11.2023
+TO DO LIST:
+- tabel vaja ümber kirjutada
+- vaikselt hakata seoseid linnadega tegema
+- kasutajaliides
+  - tõmba eesti kaart
+  - teha eraldi linnadele koordinaatide / asukohtade kaudu maakaardil punktid
+  - 
+- joonistame eesti kaardi kasutades mingit plugini
+  - asukohad jäävad kaardi peale näha teekonna üldjoonisena
+  - teekond highlight
+  - pikkus km-tes
+- lisada pikkustele ajaline mõõt, et teepikkuse ajakestvus
+  - kilomeetrid jagada keskmise kiirusega, mille kaudu saad ajalise kestvuse
+  - 
+-
+
+PROBLEEMID:
+kaugused ei ole õiged
+algoritm arvutab ühest punktist teise valesti
+  source = 'Tartu'
+  destination = 'Rakvere'
+  %Run projetestrunner.py
+    lühim maa: 390
+    lühim tee: ['Tartu', 'Valga', 'Pärnu', 'Rakvere']
 
 Hoidlad mida kasutasime info jaoks:
 
