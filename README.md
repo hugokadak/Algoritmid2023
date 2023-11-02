@@ -8,7 +8,7 @@ Meeskonnas Hugo ja Oskar.
 ## Kodutöö 2
 Ülesanded lisatud kausta
 
-# Projekt
+## Projekt
 Lühima Tee Otsija:
 ● Eesmärk: Loo tööriist, mis kasutab Dijkstra algoritmi, et määrata võrgus lühim tee
 erinevatel eesmärkidel, nagu marsruutimine või reisi planeerimine.
