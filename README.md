@@ -13,7 +13,7 @@ Lühima Tee Otsija:
 ● Eesmärk: Loo tööriist, mis kasutab Dijkstra algoritmi, et määrata võrgus lühim tee
 erinevatel eesmärkidel, nagu marsruutimine või reisi planeerimine.
 ● Algoritmi Rakendamine: Rakenda Dijkstra algoritmi, et leida võrgus sõlmede vahel
-lühim tee, arvestades tegureid nagu kaugus, aeg või kulud.
+lühim tee, arvestades tegureid nagu kaugus, aeg või kulud.'
 ● Rakenduse Kohandamine: Arenda liideseid või mooduleid tööriista kohandamiseks
 erinevateks rakendusteks, nagu teedevõrgud, telekommunikatsioon või logistiline
 marsruutimine.
