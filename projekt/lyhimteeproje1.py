@@ -1,6 +1,35 @@
 import sys
 from heapq import heapify, heappush, heappop
+from tkinter import *
+from tkinter import ttk
 
+
+aken = Tk()
+aken.title("LÜHIMATEEOTSIJA")
+frm = ttk.Frame(aken, padding=10)
+frm.grid()
+# ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
+# ttk.Button(frm, text="Quit", command=aken.destroy).grid(column=1, row=0)
+
+def show(): 
+    label.config( text = clicked.get() )
+
+options = [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] 
+
+clicked1 = StringVar()
+clicked1.set("Vali Algus koht")
+
+clicked2 = StringVar()
+clicked2.set("Vali Lõpp koht")
+
+drop1 = OptionMenu( aken , clicked1 , *options ).grid(column=1,row=0) 
+drop2 = OptionMenu( aken , clicked2 , *options ).grid(column=1,row=1) 
+
+
+button1 = Button( aken , text = "VALI" , command = show ).grid(column=2,row=0)
+button2 = Button( aken , text = "VALI" , command = show ).grid(column=2,row=1)
+label = Label( aken , text = " " )
+ 
 def dijkstra(graph, src, dest):
     inf = sys.maxsize
     node_data = {'Tartu':{'cost':inf, 'pred':[]},
@@ -47,3 +76,4 @@ if __name__ == "__main__":
     source = 'Tartu'
     destination = 'Rakvere'
     dijkstra(graph,source,destination)
+aken.mainloop()
