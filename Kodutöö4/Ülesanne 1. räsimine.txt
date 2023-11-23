@@ -1,0 +1,11 @@
+1. Kirjuta selgitus räsimise (hashing) kontseptsioonist - põhiidee ja eesmärk.
+Räsimine on protess, kus sisend(tekst mida tahetakse krüpteerida) muudetakse teiseks väärtuseks millel on kindel
+arv tähemärke. Räsimine töötab vaid ühte pidi.
+2. Kirjelda hea räsifunktsiooni omadusi ja selgita, miks need on olulised.
+Sisend tekst suurus pole oluline. Väljund on alati ühepikkune.
+See on oluline sellepärast, et räsimine töötab ükskõik millise sisendi puhul.
+3. Selgita kokkupõrgete lahendamise tehnikaid, eriti eraldi aheldamist (separate
+chaining) ja avatud aadressimist (open addressing).
+Eraldi aheldamine - kokkupõrkel elemendid pannakse räsitabelisse, mis on lingitud listis
+Avatud aadressimine - kokkupõrkel räsitabel otsib enda listides kuniks leitakse tühi koht kus saab hoiustada seda
+väärtust. See protsess käib nii kaua kuniks sobiv koht on leitud.
