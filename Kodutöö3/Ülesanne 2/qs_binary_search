@@ -1,0 +1,17 @@
+Ülesanne 2: Kahendotsingu (Binary Search) rakendamine ja analüüs
+
+
+1. Kirjutage programm, mis teostab Binary Search'i sorteeritud täisarvude
+massiivil.
+Programm selle kõrval samas kaustas binarysearch.py
+
+2. Võrrelge teoreetilises analüüsis valminud Binary Search'i ja Linear Search'i
+aegkomplekssust.
+Linear Search'i ajakompleksus on O(n) ja Binary Search'i ajakompleksus on O(log n).
+Linear search'i ajakompleksus on lineaarne, mis kasvab loendi väärtuste kogusega ning binary searchi oma logaritmiline,
+mille ajakompleksus väheneb loendi väärtuste kogusega drastiliselt suurte loendite puhul.
+
+3. Tooge näide stsenaariumist, kus Binary Search on kasulikum kui Linear
+Search, ja selgitage miks.
+Binary search sobib hästi suurtes massiivides väärtuste leidmiseks, kuna leitava arvu otsinguvahemik väheneb seda rakendades.
+Lisaks väheneb selle ajakompleksus suurte kogumike korral.
