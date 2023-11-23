@@ -1,0 +1,8 @@
+2. Võrdle separate chaningu efektiivsust open addressing meetodiga ajalise ja
+ruumilise komplekssuse mõttes.
+separate chaining ja open addressing on sama ajalise ja ruumilise komplektusega sama tingimustega. Kuid
+kui open addressing on kiirem, sest kõik info on samas tabelis, kuid samas tabeli suurus võib ka väga suureks 
+minna, mis teeb halvema aja komplektsuse.
+3. Aruta separate chaning kasutamise plusse ja miinuseid räsitabelites.
+separate chaining miinused- ruumi raiskamine, aegaline otsimine ja vajadus suurema ruumi järele, et andmeid hoida
+separate chaining plussid - ei saa kunagi täis, lihtne implementeerida, kustudada on andmeid lihtsam
