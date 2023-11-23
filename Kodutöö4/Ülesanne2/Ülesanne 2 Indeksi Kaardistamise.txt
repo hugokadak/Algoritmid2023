@@ -1,0 +1,6 @@
+2. Analüüsi oma rakenduse aja- ja ruumikomplekssust.
+aja komplektsus on O(n) ja ruumikomplektsus on O(n)
+3. Aruta, kuidas indeksi kaardistamist massiividega saab rakendada reaalses
+maailmas.
+indeksi kaardistamine on protess, mis defineerib kuidas mingi dokument on kaardistatud otsingu algorütmi 
+järgi.
