@@ -9,6 +9,8 @@ algoritm käsile sellest plokist eelneva bloki, kuna leitav arv on selles plokis
 lineaarotsingu, kuna √n suuruses plokis on kiirem lineaarotsingut teostada, kui terves loendis.
 Põhiprintsiip on plokkide üle keksimine, kuniks ta leiab ploki, mille madalaim element on leitavast suurem,
 võtab seejärel eelmise ploki ja rakendab lineaarotsingu.
+
+masiiv = [number, number, number, number, number, number, number1, number, number, number]
 def jump_search(array, leitav):
     a = len(array)
     b = sqrt(a) # leiab loendi ploki suuruse
@@ -23,7 +25,8 @@ def jump_search(array, leitav):
         ploki_element += 1
         if array[elemet] == leitav:
             return elemendi index
-
+arv = number1
+jump_search(massiiv, arv)
 
 2. Võrrelge Jump Search'i ajalist komplekssust Linear Searchi ja Binary Searchiga.
 Linear ajaline on O(n), binary O(log n) ja jump search O(√n).
