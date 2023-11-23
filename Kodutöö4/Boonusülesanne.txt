@@ -1,0 +1,7 @@
+1. Selgita, mis on räsitabeli koormustegur ja miks see on oluline.
+räsitabeli koormusteguri suurenedes, suurenevad ka kokkupõrked, mis omakorda võib masina jõudlust aeglustada.
+2. Rakenda lihtsat Rehashingu protsessi ja aruta, kuidas see aitab säilitada efektiivset räsitabelit.
+kui räsitabel hakkab täis saama tulevad probleemid, rehasing lahendab need probleemid nii kauaks kuni on vaja
+uuesti teha. See protsess säilitab räsitabelit.
+3. Analüüsi Rehashingu mõju räsitabeli jõudlusele.
+rehashing annab jõudlust juurde.
