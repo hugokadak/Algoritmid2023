@@ -1,0 +1,7 @@
+1. Rakenda topelt räsimise algoritm ja aruta, kuidas see aitab ületada ühekordse räsimise piiranguid.
+topelt räsimine teeb kokkupõrgete võimalused palju väiksemaks.
+2. Analüüsi oma rakenduse aja- ja ruumikomplekssust.
+Topelt räsimise aja- ja ruumi komplektsus on O(n)
+3. Paku välja stsenaarium, kus topelt räsimine oleks eriti efektiivne
+Kui rakendus vajab väiksemat räsitabelit on topelt räsimine eriti efektiivne, sest see leiab kiiremini ja
+efektiivsemalt vaba kohti kui teised algorütmid. Lisaks veel toimub väga vähe kokkupõrkeid.
