@@ -1,0 +1,16 @@
+Ülesanne 1: Lineaarotsing (Linear Search)
+
+
+1. Rakendage Linear Search algoritm vabalt valitud programmeerimiskeeles.
+Lisatud py failina linearsearch.py nime alt.
+
+2. Analüüsige oma algoritmi aja- ja ruumikomplekssust.
+Keskmine ajakompleksus on O(n)
+Keskmine ruumikompleksus on O(1)
+Analüüs: otsingualgoritmi ajakompleksus tõuseb lineaarselt loendi suurusega ja ruumikompleksus on konstantne, see ei tõuse ega lange.
+
+3. Arutlege lühidal, kuidas Linear Search algoritmi saab kasutada reaalmaailma rakendustes ja millised on selle piirangud.
+Kasulik kasutada sorteerimata loendis arvu leidmiseks, kuna algoritm vaatab iga elemendi läbi. 
+Kui kiirus ei ole tähtis, on see lihtsaim algoritm mida implementida.
+Peamiselt kasulik leida spetsifilist elementi sorteerimata loendis, saab kasutada loendi kindlate suuruste leidmiseks, nagu
+näiteks suurim ja väikseim väärtus. 
