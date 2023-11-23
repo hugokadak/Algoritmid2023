@@ -1,0 +1,15 @@
+1. Kirjuta lühike ülevaade avatud aadressimise meetodist kokkupõrgete
+lahendamisel räsimises.
+Kui avatud addresseremisel toimub kokkupõrge , siis algorütm otsib järgmist tühja kohta kuhu panna probleemikas
+võti.
+2. Võrdle (teooria) kolme tehnikat: lineaarne otsing (linear probing), ruuduline
+otsing (quadratic probing) ja topelträsimine (double hashing).
+linear probing - kokkupõrkel algorütm otsib järgmist vaba kohta 
+quadratic probing - otsimis meetod, mis otsib ruutvõrrandi järgim, ehk me otsime i^2 kohta i iteratsioonil 
+double hashing - kooskasutuses open addressing, double hasing lahendab kokkupõrked kasutades sekundaarset 
+räsi võtmest kui kokkupõrge toimub.
+3. Aruta, millistes olukordades iga tehnika oleks kõige efektiivsem.
+linear probing - kui räsitabel ei ole väga suur
+quadratic probing - üritab vältida "primary clustering" st, et kõik info mis on räsi tabelis ei ole kõik koos,
+selle meetodil tekib "secondary clustering", mis üritab suuri hulke väiksemateks hoida neid laiali jaotades.
+double hashing - väga madal kokkupõrke võimalus.
