@@ -1,0 +1,40 @@
+Ülesanne 3: Jump Search
+
+
+1. Kirjutage lühike ülevaade Jump Search algoritmist, sealhulgas selle
+põhiprintsiibid ja pseudo-koodi näide.
+Jump search algoritm põhineb loendi jagamisse blokkideks, mille kaudu hakkab ta väiksemaid väärtuseid
+plokkides uurima ja võrdlema leitava arvuga. Kui leiab ploki, mis on suurem leitavast arvust, võtab 
+algoritm käsile sellest plokist eelneva bloki, kuna leitav arv on selles plokis. Antud plokis teeb algoritm
+lineaarotsingu, kuna √n suuruses plokis on kiirem lineaarotsingut teostada, kui terves loendis.
+Põhiprintsiip on plokkide üle keksimine, kuniks ta leiab ploki, mille madalaim element on leitavast suurem,
+võtab seejärel eelmise ploki ja rakendab lineaarotsingu.
+def jump_search(array, leitav):
+    a = len(array)
+    b = sqrt(a) # leiab loendi ploki suuruse
+    while array[min(ploki väikseim väärtus)] < leitav:
+          tee hüpe edasi
+          liida indexitele b
+          kui min väärtus suurem ss lõpeb loop
+    #nüüd uurime viimast plokki millest järgmine suurem leitavast
+    # viimase ploki index on salvestatud muutuja külge
+    #nüüd teeme lineaarsearchi väikses plokis
+    while array[ploki_element] < leitav:
+        ploki_element += 1
+        if array[elemet] == leitav:
+            return elemendi index
+
+
+2. Võrrelge Jump Search'i ajalist komplekssust Linear Searchi ja Binary Searchiga.
+Linear ajaline on O(n), binary O(log n) ja jump search O(√n).
+Jump searchi ajaline kompleksus on parem kui linear search, kuid jääb alla Binary searchile.
+Binary ja Jump search on mõlemad logaritmilised, kuid binary on suuremates massiivides parem.
+
+3. Arutlege lühidalt stsenaariumide üle, kus Jump Search võib olla efektiivsem
+võrreldes Linear Searchi ja Binary Searchiga
+Jump searchi otsingualgoritm on efektiivsem, et leida väärtuseid tagurpidi hüpates.
+Kõvaketta plaat pöörleb ainult ühtepidi, niiet tagurpidi väärtusi leides on vaja rohkem aega kulutada,
+et ketas saaks teha täispöörde enne uuesti uurimist. Väiksete väärtuste leidmine on efektiivsem Jump searchiga.
+Jump search hüppab maksimaalselt tagasi ühe korra, kuid binary hüppab log n korda.
+Linear search on üldiselt halb suurte massiivide jaoks ning jump search on kordades parem väärtuste leidmises masiivis,
+kui lineaar search. Ühe ploki lineaar search vs terve massiivi lineaar search.
