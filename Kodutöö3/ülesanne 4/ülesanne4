@@ -1,0 +1,15 @@
+Ülesanne 4: Kolmikotsing ja Kahendotsing (Ternary Search vs Binary
+Search)
+
+
+1. Kirjutage lühike ülevaade Ternary Search algoritmist, sealhulgas selle
+põhiprintsiibid ja pseudo-koodi näide.
+
+
+2. Võrrelge Ternary Search'i ja Binary Search'i aegkomplekssust. (Kas mõõdetud
+tulemus, teoreetiline võrdlus, vms)
+
+
+3. Arutlege lühidalt, kas Binary Search on üldiselt tõhusam kui Ternary Search
+ning millistes olukordades.
+
