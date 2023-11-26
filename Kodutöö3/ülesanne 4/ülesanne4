@@ -4,12 +4,30 @@ Search)
 
 1. Kirjutage lühike ülevaade Ternary Search algoritmist, sealhulgas selle
 põhiprintsiibid ja pseudo-koodi näide.
-
+Ternary Search on sorteeritud loendi otsingualgoritm, mis põhineb jaga ja valitse süsteemil.
+Algoritm jagab loendi kolmeks ning uurib antud loendite minimaalväärtust. Vastavalt otsitava suurusele
+leiab väärtuse ploki ja kordab algoritmi uuesti, kuniks väärtus on käes.
+Põhiprintsiibiks on "jaga ja valitse" kasutamine efektiivsuseks.
+def ternary(array, x):
+  a = mid_element_1
+  b = mid_element_2
+  if x > a:
+    array_uus_algus = mid_element_1
+  if x < b:
+    array_uus_algus = mid_element_2
+ if x == otsitav:
+  return x
+else:
+  return -1
 
 2. Võrrelge Ternary Search'i ja Binary Search'i aegkomplekssust. (Kas mõõdetud
 tulemus, teoreetiline võrdlus, vms)
-
+Mõlema ajakompleksus on O(log n), kuid Ternary searchi ajakompleksus on O(log3n),
+mis on teoorias kiirem, kuid halvimal juhul jääb Ternary search aeglasemaks kui Binary.
 
 3. Arutlege lühidalt, kas Binary Search on üldiselt tõhusam kui Ternary Search
 ning millistes olukordades.
-
+Binary searchil on igal sõlmel ühe võrdluse võrra väiksem, on Ternary kiirem olles antud
+piisavalt sügav puu.
+Ternary search on vähem võimeline erroriteks ja lihtsam kasutada kui Binary.
+Ternary oskab paremini komakohtade arvudega loendit lugeda ja võrrelda
