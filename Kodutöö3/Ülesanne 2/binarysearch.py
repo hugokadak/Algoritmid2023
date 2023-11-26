@@ -21,4 +21,4 @@ index = binary_search(num_arr, 0, len(num_arr), leitav)
 if index == "no":
     print("no")
 else:
-    print("Number peitis ennast", str(index), "kohas.")
+    print("Number asub indeksis", str(index))
