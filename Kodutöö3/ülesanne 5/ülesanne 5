@@ -1,0 +1,21 @@
+Ülesanne 5: Otsingualgoritmide praktiline rakendamine
+
+Valige reaalmaailma probleem, kus otsingualgoritmi saab rakendada, ja kirjeldage
+konkreetse algoritmi sobivust stsenaariumi jaoks. Näited sellistest reaalmaailma
+probleemidest hõlmavad:
+8. Sõna otsimine sõnaraamatust.
+Pärast ühe nende stsenaariumide või mõne muu sarnase reaalmaailma probleemi
+valimist kirjeldage, milline otsingualgoritm oleks kõige tõhusam ja miks. Arutage ka
+potentsiaalseid modifikatsioone, mis võiksid algoritmi teie valitud rakenduse jaoks
+optimeerida. Pidage meeles, et tuleb arvestada andmete omadusi, nagu suurus,
+struktuur ja uuendamise sagedus
+
+Binary search algoritm sobib hästi sõna otsimiseks sõnaraamatust.
+Binary search algoritm leiab kõik sõnad, mida kasutaja tahab uurida. Binary search
+on väga efektiivne järjestatud loendi otsingutes ja sõnaraamat on järjestatud.
+Lisaks väheneb uuritavate väärtuste (sõnade) kogus pooleks iga kord, kui binary uuesti
+rakendub.
+Optimeerimine
+Indekseerida kõik elemendid ning enne algoritmi otsitava indeks üle kontrollida, kas see
+on loendi ulatuses. Kui otsitav ei ole, ei jooksegi algoritm läbi, vaid ütleb kohe ei/jah
+(jah korral rakendub algoritm)
