@@ -8,6 +8,9 @@ Meeskonnas Hugo ja Oskar.
 ## Kodutöö 2
 Ülesanded lisatud kausta
 
+## Kodutöö 3
+Lisatud kaust ülesannetega.
+
 ## Projekt
 Lühima Tee Otsija:
 
