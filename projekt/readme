@@ -40,7 +40,8 @@ algoritm arvutab ühest punktist teise valesti
     lühim tee: ['Tartu', 'Valga', 'Pärnu', 'Rakvere']
 
 Hoidlad mida kasutasime info jaoks:
-
+how to dijkstra
+https://pythonalgos.com/2022/08/17/dijkstras-algorithm-in-5-steps-with-python/
 
 github api
 https://thepythoncode.com/article/using-github-api-in-python?utm_content=cmp-true
