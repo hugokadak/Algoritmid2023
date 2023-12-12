@@ -1,3 +1,5 @@
+# LOEMIND ENNE KASUTUST
+
 projekt 1
 
 ÜLESANNE
@@ -12,6 +14,16 @@ marsruutimine.
 ● Jõudluse Optimeerimine: Optimeeri algoritmi jõudlust ja tööriista kasutajasõbralikkust,
 tagades, et see suudab tõhusalt hakkama saada reaalmaailma stsenaariumidega.
 
+--------------------------------------------------------------------- LUGEDA ---------------------------------------------------------------
+programmi .py fail ja pildid tõsta ühte kausta, see optimized nii töötama
+kui seda järgida peaks programm töötama õigesti
+teoorias vahetada
+LINE 16     image1 = Image.open("./pildid/EESTIKARDDD.png")
+LINE 113    for root, dir, files in os.walk("./pildid/"):
+LINE 125    pilt1 = Image.open("./pildid/EESTIKARDDD.png") #bg image
+LINE 127    teekond1 = Image.open("./pildid/{}".format(file))
+saaks ka piltide kausta teha, aga imo kõik ühes on rahulikum
+-------------------------------------------------------------------------------------------------------------------------------------------
 12.12.2023
 TO DO:
 - kõik timm, proge töötab ilusti
