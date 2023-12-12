@@ -12,43 +12,7 @@ marsruutimine.
 ● Jõudluse Optimeerimine: Optimeeri algoritmi jõudlust ja tööriista kasutajasõbralikkust,
 tagades, et see suudab tõhusalt hakkama saada reaalmaailma stsenaariumidega.
 
-
-02.11.2023
-TO DO LIST:
-- tabel vaja ümber kirjutada
-- vaikselt hakata seoseid linnadega tegema
-- kasutajaliides
-  - tõmba eesti kaart
-  - teha eraldi linnadele koordinaatide / asukohtade kaudu maakaardil punktid
-  - 
-- joonistame eesti kaardi kasutades mingit plugini
-  - asukohad jäävad kaardi peale näha teekonna üldjoonisena
-  - teekond highlight
-  - pikkus km-tes
-- lisada pikkustele ajaline mõõt, et teepikkuse ajakestvus
-  - kilomeetrid jagada keskmise kiirusega, mille kaudu saad ajalise kestvuse
-  - 
--
-
-PROBLEEMID:
-kaugused ei ole õiged
-algoritm arvutab ühest punktist teise valesti
-  source = 'Tartu'
-  destination = 'Rakvere'
-  %Run projetestrunner.py
-    lühim maa: 390
-    lühim tee: ['Tartu', 'Valga', 'Pärnu', 'Rakvere']
-
-Hoidlad mida kasutasime info jaoks:
-how to dijkstra
-https://pythonalgos.com/2022/08/17/dijkstras-algorithm-in-5-steps-with-python/
-
-github api
-https://thepythoncode.com/article/using-github-api-in-python?utm_content=cmp-true
-
-  -Linnadevahelised kaugused:
-  https://atv.ee/wp-content/uploads/2014/03/eesti_linnade_vahemaad.pdf
-  https://ee.toponavi.com/1048-90555    <-- näitab täpset teed mille kaude lähed
-  https://www.worldometers.info/img/maps/estonia_road_map.gif
-  - list add items
-  https://www.w3schools.com/python/python_lists_add.asp
+12.12.2023
+TO DO:
+- kõik timm, proge töötab ilusti
+esitlus ka ja siis ok (y)
