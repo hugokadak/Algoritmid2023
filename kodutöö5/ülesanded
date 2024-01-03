@@ -1,0 +1,56 @@
+Kodutöö 5 Puud, Kuhi (Heap) (10 punkti)
+Tähtaeg: 7. Jaanuar 2023 23:59
+
+Ülesanne 1: Binaarpuu Implementatsioon
+● Rakenda binaarpuu andmestruktuur vabalt valitud programmeerimiskeeles.
+class Node:
+    def __init__(self, data):
+        self.left = None
+        self.right = None
+        self.data = data
+    def outputPuu(self):
+        print(self.data)
+baas = Node(69) #hehe
+baas.outputPuu()
+
+
+Ülesanne 2: Kuhja (Heap) Struktuuri Teoreetiline Analüüs
+● Kirjelda min-kuhja ja max-kuhja struktuuride teoreetilisi omadusi.
+
+● Analüüsi nende struktuuride aja- ja ruumikomplekssust.
+
+● Aruta, kuidas kuhja struktuurid sobivad andmete sorteerimiseks ja
+prioriteetjärjekordade haldamiseks.
+
+
+Ülesanne 3: Binaarse Otsingupuu (Binary Search Tree, BST)
+Teoreetiline Analüüs
+● Kirjelda binaarse otsingupuu (BST) andmestruktuuri ja selle põhielemente.
+● Arutle, kuidas tasakaalustamata puud mõjutavad BST tõhusust ja kuidas seda
+saab teoreetiliselt optimeerida.
+
+
+Ülesanne 4: Punase-Musta Puu (Red-Black Tree) Teoreetiline
+Ülevaade
+● Kirjelda punase-musta puu andmestruktuuri ja selle peamisi omadusi.
+
+● Võrdle teoreetiliselt punase-musta puu ja binaarse otsingupuu tõhusust.
+
+● Aruta, kuidas punase-musta puu tasakaalustamine ja värvireeglid aitavad
+kaasa andmestruktuuri tõhususele.
+
+
+Ülesanne 5: AVL Puu vs. Punase-Musta Puu Teoreetiline Võrdlus
+● Kirjelda AVL puu andmestruktuuri ja selle peamisi omadusi.
+
+● Võrdle teoreetiliselt AVL puu ja punase-musta puu tõhusust.
+
+● Analüüsi, millistes rakendustes oleks üks struktuur teisele eelistatav ja
+põhjenda oma valikuid.
+
+
+Boonusülesanne (2 punkti):
+● Analüüsi ja võrdle erinevaid binaarpuude tasakaalustamise algoritme
+(näiteks AVL, punase-musta, Splay puud, B-tree) teoreetiliselt. Selgita, kuidas
+need algoritmid aitavad optimeerida andmestruktuuride jõudlust erinevates
+rakendustes
