@@ -16,29 +16,50 @@ baas.outputPuu()
 
 Ülesanne 2: Kuhja (Heap) Struktuuri Teoreetiline Analüüs
 ● Kirjelda min-kuhja ja max-kuhja struktuuride teoreetilisi omadusi.
-
+min-heap-i juursõlm on alati võrdse või väiksema väärtusega, kui sõlme alamväärtusest.
+max-heap-il vastupidi, kus juursõlme väärtus on võrdne või suurem tema alamväärtustest.
 ● Analüüsi nende struktuuride aja- ja ruumikomplekssust.
-
+min/max heap ruumikompleksus on O(n), kuna andmed on ennikus ja vajavad n kogus ruumi.
+min/max heap ajakompleksus on ka O(n) andmete kogusest sõltuvalt.
 ● Aruta, kuidas kuhja struktuurid sobivad andmete sorteerimiseks ja
 prioriteetjärjekordade haldamiseks.
-
+Heap struktuurid sobivad andmete sorteerimiseks, kuna nad sorteerivad andmeid kasvavas
+või kahanevas järjekorras. Aitab leida väikseima või suurema väärtuse. Heap struktuuri
+kasutades eemaldab ta otsimise käigus ebavajalikud väärtused, vähendades mälukasutust.
+Kuna kõik juured ja nende alamad on kas min või max heap süsteemiga, on lihtne hallata
+otsimisel järjekorda.
 
 Ülesanne 3: Binaarse Otsingupuu (Binary Search Tree, BST)
 Teoreetiline Analüüs
 ● Kirjelda binaarse otsingupuu (BST) andmestruktuuri ja selle põhielemente.
+BST andmestruktuur on jaotatud binaarne puu, mille elemendid on sorteeritud.
+BST põhielemendoid on üles ehitatud nii, et (alam)juurest vasakul asuv element on alati
+väiksem kui (alam)juur ja paremal suurem kui (alam)juur ise. 
 ● Arutle, kuidas tasakaalustamata puud mõjutavad BST tõhusust ja kuidas seda
 saab teoreetiliselt optimeerida.
-
+Tasakaalustamata puud muudavad BST tõhusust ajakompleksusest O(log n) kompleksusele
+O(n), kus n on puu kõrgus ja andmete väärtus. See muudab BST kiiruse lineaarseks ja
+teeb binaarse otsingupuu kasutuks. Tasakaalustamine on vajalik.
+Üks viisidest optimeerimiseks on puu tasakaalustada kõrguse poolest, kus kõrgus peab jääma
+konstantseks. Seda viisi tutvustati AVL puu-ga ja Punase Musta puuga.
 
 Ülesanne 4: Punase-Musta Puu (Red-Black Tree) Teoreetiline
 Ülevaade
 ● Kirjelda punase-musta puu andmestruktuuri ja selle peamisi omadusi.
-
+Punase-Musta puu andmestruktuur on spetsiaalne BST andmestruktuur kiire ja tõhusa
+andmete leidmise jaoks. See kasutab kahte värvi andmete markeerimiseks, mis 
+garanteerib selle kiiruse ja tõhususe, kuna andmetel on ühe bitine värvuse kood
+juures. Värve kasutatakse andmete taaskaalustamise juures, et organiseerimine ja uuesti
+värvimine oleks tõhus.
 ● Võrdle teoreetiliselt punase-musta puu ja binaarse otsingupuu tõhusust.
-
+Aja- ja ruumikompleksus on mõlemal puul O(log n) ja O(n) vastavalt, kuid
+punase-musta puu sisestus ja eemaldamise kiirus on kiirem, ajaliselt O(1),
+kuid BST omad on mõlemad O(log n).
 ● Aruta, kuidas punase-musta puu tasakaalustamine ja värvireeglid aitavad
 kaasa andmestruktuuri tõhususele.
-
+Puule uute elementide lisamisel taaskaalutakse ja värvitakse puu värvide kaudu,
+et piirata puu tasakaalustamata olekut, tagades kiiruse ja tõhususe. Värvid piiravad
+puu tasakaalustamatust, niiet elementide ümberkorraldus on tõhusam.
 
 Ülesanne 5: AVL Puu vs. Punase-Musta Puu Teoreetiline Võrdlus
 ● Kirjelda AVL puu andmestruktuuri ja selle peamisi omadusi.
