@@ -1,0 +1,3 @@
+1. Alustades alg punktist Dijkstra algorütm läheb kõikvõimalike punktidesse edasi, vaatab mis on kõige väiksema väärtusega, ja see on lühim tee. Sealt edasi läheb sama moodi kõik võimalike punkidesse edasi, kuid kui punktide vaheline tee kaugus on muutunud suuremaks, saab lühimaks teeks hoopis teine viis kui varem. Ehk iga iteratsiooni järgi on "uuendus" kus lühim tee on uuesti arvutatud.
+
+2. Dijkstra algorütm on kõige kasulikum siis kui me ei tea antud graafist midagi ja punktide vahelist kaugust. Eba effektiivne on siis kui meil on nii graaf kui ka punktide vaheline kaugus teada. Lisaks veel ei ole vaja kõige lühemat teed punktide vahel.
