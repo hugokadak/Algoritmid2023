@@ -1,0 +1,4 @@
+DFS algorütmi ruumi komplektsus on O(nb), kus m on joon kahe punkti vahel ja b on punkt. Iga korra kui edasi liikuda
+liikudes mõõda b joont peab ka meelde jätma n punktid.
+
+aja komplektsus on O(n), sõtluvast palju punkte on nii kujuneb selline aja komplekstsus
