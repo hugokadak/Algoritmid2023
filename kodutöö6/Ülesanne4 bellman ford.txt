@@ -1,0 +1,3 @@
+1. Bellman-Fordi algorütm saab teha graafe kus on negatiivsed tsüklid, mis annab rohkem kasutus võimalusi, sest dijkstra ei suuda tuvastada neid. ajakomplektsus on keerukam kui Dijkstra. Lihtsasti implementeeritav.
+
+2. Iga iteratsiooni järel algorütm uuendab väärtusi punktide vahelt. Negatiivse tsükkli puhul see väärtus muutub koguaeg. Kui mitu iteratsiooni on läbitud asendadakse need miinus lõppmatusega. Praktiline tähtsus on see, et hind punktide vahel läheb väiksemaks, mis teeb lühema tee paremaks.
