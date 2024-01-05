@@ -63,15 +63,37 @@ puu tasakaalustamatust, niiet elementide ümberkorraldus on tõhusam.
 
 Ülesanne 5: AVL Puu vs. Punase-Musta Puu Teoreetiline Võrdlus
 ● Kirjelda AVL puu andmestruktuuri ja selle peamisi omadusi.
-
+AVL puu on ise-tasakaalustuv BST, mille alamjuurte kaugus üksteisest on alati
+maksimaalselt üks. Elemente lisades ja eemaldades AVL puu balanseerib ennast ise,
+et alamjuured oleks samal kaugusel (max kaugus 1).
 ● Võrdle teoreetiliselt AVL puu ja punase-musta puu tõhusust.
-
+AVL puu ja Punase-Musta puu aja- ja ruumikompleksus on sama, ajakompleksusega O(log n)
+ja ruumikompleksusega O(n). AVL puu ja Punase-Musta puu tõhusus on sarnane, kuna mõlemad
+tasakaalustavad ennast ise ja alamjuurte kaugus on sama. Kumbki ei ole raskusest tasakaalustatud.
 ● Analüüsi, millistes rakendustes oleks üks struktuur teisele eelistatav ja
 põhjenda oma valikuid.
-
+AVL puud oleks eelistatum variant kasutada, kui on vaja rohkelt andmeid otsida puust üles, kuna
+AVL puud on rangemalt tasakaalustatud. AVL puid on parem kasutada andmebaasides, kus on vaja kiirelt
+leida andmeid. 
+Punase-musta puud on parem kasutada suurtes andmebaasides, kuna värvide kasutamine kasutab vähem ruumi
+otsimises ja haldamises, kui AVL puud, millel on andmetel kaugused küljes. Punase-musta puu tasakaalustamine
+on ka tõhusam andmete lisamises, kuna see vajab vähem juurte liigutamist.
+kokkuvõtteks: AVL puud on parem kasutada andmebaasides, kus kiirus ja tõhusus on oluline.
+Punase-musta puud on parem kasutada andmebaasides, kus andmete kogus on suur. Lisaks on punase musta
+puu tõhusam uute andmete lisamises ja eemaldamises.
 
 Boonusülesanne (2 punkti):
 ● Analüüsi ja võrdle erinevaid binaarpuude tasakaalustamise algoritme
 (näiteks AVL, punase-musta, Splay puud, B-tree) teoreetiliselt. Selgita, kuidas
 need algoritmid aitavad optimeerida andmestruktuuride jõudlust erinevates
 rakendustes
+AVL puude head küljed: kiired, tõhusad, komplekse ja rangete reeglitega (tasakaalustamise suhtes)
+puud, mis on kiired otsijad, aga aeglased lisajad/eemaldajad uute andmete suhtes.
+Punase-musta puud: aeglane leidja, kiire sisestus/eemaldamine, vähem ruumi võtab, suur andmebaas jaoks hea.
+kuidas need aitavad optimeerida:
+AVL puud : kiire leidmine, kasulik suurtes andmebaasides asjade leidmises. miinus: sisestus ja eemaldus raske, peab balanseerima kaua
+P-M puud : aeglane leidja, kasulik suurtes andmebaasides asjade lisamises ja eemaldamises.
+suured andmebaasid kasutaks pigem AVL puud, kelle jaoks on andmete leidmine andmebaasis oluline.
+    nt andmebaasid, networkid, translaatorid, failide süsteemid.
+P-M puud oleks kasulikud suurtes andmebaasides, kus kiirus pole oluline.
+    masinõpe, funktsionaalne programeerimine, minecraft(tglt Java kasutab P-M), arvutuslik geomeetria
