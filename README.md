@@ -1,7 +1,6 @@
 # Algoritmid2023
 NTR0390 Algoritmid ja andmestruktuurid github hoidla.
 Meeskonnas Hugo ja Oskar.
-https://docs.google.com/document/d/18Y5P6r2HbgocRgenoy5czmFP0azBnCmZl28QYwq_Xdo/edit
 ## Kodutöö 1
 Ülesanded lisatud kausta
 
